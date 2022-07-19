@@ -110,6 +110,16 @@ hero-container-left {
   top: 130px;
 }
 
+.star-bottom {
+  position: absolute;
+  left: 650px;
+  bottom: 50px;
+}
+
+.star-bottom img {
+  width: 45px;
+}
+
 .hero-heading-container {
   text-align: right;
 }
