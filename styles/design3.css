@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  background-color: rgb(38, 34, 27);
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 20vh;
+}
+
+.list-container {
+  display: inline;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list-item {
+  display: inline;
+  margin-left: 40px;
+}
+
+.list-item a {
+  color: #808080;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.list-item a:hover,
+a:focus,
+a:active {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.list,
+.button-small {
+  display: inline;
+}
+
+.button-small {
+  margin-left: 40px;
+  padding: 12px 25px;
+  border: 1px solid #a3a31d;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  color: #a3a31d;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 25px 100px 25px 100px;
+}
+
+.hero-heading {
+  width: 45%;
+  font-size: 70px;
+  font-weight: bold;
+  color: #fafbff;
+}
+
+.hero-desc {
+  width: 45%;
+  font-size: 18px;
+  color: #808080;
+  text-align: left;
+}
+
+.back-img img {
+  /* background-image: url("./assets/3.png");
+  width: 100%;
+  height: 100%; */
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+}
